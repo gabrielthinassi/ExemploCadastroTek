@@ -3,7 +3,7 @@ unit ClassPaiCadastro;
 interface
 
 uses Classes, DB, SysUtils, DBClient, StrUtils, Variants, FMTBcd, Controls, SqlTimSt, SqlExpr, TypInfo, Rtti,
-  ClassPai, Variants;
+  ClassPai;
 
 type
   TRotuloDescricao = record
