@@ -10,13 +10,13 @@ const
     cAdvogado = 2;
     cadvogadoOponente = 3;
 
-    DescricaoTipo: array [0 .. 3] of TRotuloDescricao = ((Name: 'Cliente';
+    {DescricaoTipo: array [0 .. 3] of TRotuloDescricao = ((Name: 'Cliente';
       Index: cCliente), (Name: 'Oponente'; Index: cOponente), (Name: 'Advogado';
       Index: cAdvogado), (Name: 'Advogado Oponente'; Index: cadvogadoOponente));
 
     DescricaoPessoa: array [0 .. 1] of TRotuloDescricao = ((Name: 'Física';
       Index: 0), (Name: 'Jurídica'; Index: 1));
-
+     }
 type
     TClassPessoa = class(TClassPaiCadastro)
     public

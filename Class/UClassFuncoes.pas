@@ -4,7 +4,7 @@ interface
 
 uses
     Winapi.Windows, Winapi.Messages, System.SysUtils, Vcl.Dialogs,
-    Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, System.Classes, Vcl.Forms, frxClass, System.Variants;
+    Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, System.Classes, Vcl.Forms, System.Variants;
 
 const
     {
