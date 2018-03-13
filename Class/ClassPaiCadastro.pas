@@ -6,14 +6,14 @@ uses Classes, DB, SysUtils, DBClient, StrUtils, Variants, FMTBcd, Controls, SqlT
   ClassPai;
 
 type
-  TRotuloDescricao = record
-    Name: string;
-    Index: Integer;
-  end;
-  TListaDeRotuloDescricao = array of TRotuloDescricao;
+  //TRotuloDescricao = record
+  //  Name: String;
+  //  Index: Integer;
+  //end;
+  //TListaDeRotuloDescricao = array of TRotuloDescricao;
 
   TParametrosSql = record
-    Nome: string;
+    Nome: String;
     Tipo: TFieldType;
     Valor: Integer;
   end;
